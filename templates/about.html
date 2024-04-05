@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GraftGuard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="{{ url_for('static', filename='font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='clean-blog.min.css') }}" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="{{ url_for('index') }}">GraftGuard</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('about') }}">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('add') }}">Add</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('register') }}">Register</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='about-bg.jpg') }}')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Us</h1>
+              <span class="subheading">This is what we do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+           <h1>About Us</h1>
+
+            <p>Welcome to <strong>GraftGuard</strong>, a platform dedicated to raising awareness and understanding of corruption around the world. At <strong>GraftGuard</strong>, we believe that combating corruption is essential for fostering transparency, accountability, and integrity in societies.</p>
+
+            <h2>Our Mission</h2>
+
+            <p>Our mission is to provide comprehensive research, insightful analysis, and practical solutions to address the multifaceted challenges posed by corruption. We strive to empower individuals, organizations, and policymakers with the knowledge and tools necessary to combat corruption effectively.</p>
+
+            <h2>What We Offer</h2>
+
+            <ul>
+                <li><strong>Research and Analysis:</strong> We conduct in-depth research on the various dimensions of corruption, exploring its causes, impacts, and potential solutions. Our analysis aims to shed light on the complex nature of corruption and its detrimental effects on society, economy, and governance.</li>
+                <li><strong>Educational Resources:</strong> We provide educational resources, including articles, reports, and visualizations, to inform the public about the prevalence and consequences of corruption. Our goal is to raise awareness and promote informed discourse on this critical issue.</li>
+                <li><strong>Advocacy and Engagement:</strong> We advocate for anti-corruption measures and policies that promote transparency, accountability, and ethical conduct. Through partnerships and collaborations, we engage with stakeholders to drive positive change and foster a culture of integrity.</li>
+            </ul>
+
+            <p><strong>Join Us in the Fight Against Corruption</strong></p>
+
+            <p>Corruption affects us all, but together, we can make a difference. Join us in our mission to combat corruption and build a more just, equitable, and ethical world. Explore our website, share our resources, and join the conversation on social media. Together, we can work towards a future free from corruption.</p>
+
+            <p><strong>Contact Us</strong></p>
+
+            <p>Have questions or feedback? We'd love to hear from you! Feel free to contact us at <a href="mailto:cynthiathoithi@email.com">cynthiathoithi@email.com</a> with any inquiries or suggestions.</p>
+
+            <p>Thank you for visiting <strong>GraftGuard</strong>. Together, let's fight corruption and strive for a brighter tomorrow.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="copyright text-muted">Copyright &copy; Cynthia Thoithi 2024</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='clean-blog.min.js') }}"></script>
+
+  </body>
+
+</html>

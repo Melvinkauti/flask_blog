@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GraftGuard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="{{ url_for('static', filename='font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='clean-blog.min.css') }}" rel="stylesheet">
+
+
+      <style>
+
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="{{ url_for('index') }}">GraftGuard</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('about') }}">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('add') }}">Report</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('register') }}">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='home-bg.jpg') }}')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>GraftGuard</h1>
+              <span class="subheading">Safeguarding Against Graft, One Report at a Time</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <h1>Understanding the State of Corruption: A Comprehensive Research Overview</h1>
+
+                <h2>Introduction:</h2>
+                <p>Corruption is a persistent and pervasive issue that undermines the foundations of society, erodes trust in institutions, and impedes economic development. This comprehensive research aims to provide an in-depth examination of the current state of corruption globally, exploring its various manifestations, impacts, and potential solutions.</p>
+
+                <h2>1. Definition and Types of Corruption:</h2>
+                <p>Define corruption and its various forms, including bribery, embezzlement, nepotism, and cronyism. Explore the distinctions between grand corruption (involving high-ranking officials) and petty corruption (involving lower-level bureaucrats). Examine how corruption manifests differently across sectors such as politics, business, judiciary, and law enforcement.</p>
+
+                <h2>2. Global Trends and Statistics:</h2>
+                <p>Provide an overview of global corruption trends, highlighting regions and countries where corruption is most prevalent. Utilize data from reputable sources such as Transparency International's Corruption Perceptions Index and the World Bank's Worldwide Governance Indicators. Analyze trends over time to assess whether corruption is increasing or decreasing on a global scale.</p>
+                <img src="../static/graph2.jpg" alt="Corruption Perceptions Index">
+                <p><em>Figure 1: Corruption Perceptions Index trends over the past decade</em></p>
+
+                <h2>3. Impact of Corruption:</h2>
+                <p>Investigate the multifaceted impacts of corruption on society, economy, and governance. Discuss how corruption undermines democracy, rule of law, and public trust in government institutions. Examine its adverse effects on economic growth, investment, and poverty alleviation efforts. Highlight the connection between corruption and human rights abuses, including the exacerbation of inequality and marginalization.</p>
+
+                <h2>4. Drivers and Root Causes:</h2>
+                <p>Identify the underlying factors that contribute to the prevalence of corruption, such as weak governance structures, lack of transparency, and impunity. Discuss how factors like political instability, poverty, and cultural norms can fuel corrupt practices. Examine the role of global factors such as illicit financial flows, transnational crime, and offshore tax havens in facilitating corruption.</p>
+
+                <h2>5. Anti-Corruption Efforts and Strategies:</h2>
+                <p>Evaluate existing anti-corruption initiatives at the national, regional, and international levels. Highlight successful case studies of countries that have made significant progress in combating corruption. Discuss the importance of legal frameworks, enforcement mechanisms, and institutional reforms in tackling corruption effectively. Explore innovative approaches such as open data initiatives, citizen engagement, and technology-driven solutions in the fight against corruption.</p>
+
+                <h2>6. Future Outlook and Challenges:</h2>
+                <p>Assess the prospects for reducing corruption in the coming years, considering ongoing challenges and emerging trends. Discuss potential obstacles to anti-corruption efforts, including political resistance, vested interests, and global governance gaps. Propose strategies for addressing systemic issues and building sustainable anti-corruption frameworks.</p>
+
+                <h2>Conclusion:</h2>
+                <p>Corruption remains a formidable obstacle to inclusive development, social justice, and democratic governance worldwide. By understanding its complexities and implementing comprehensive anti-corruption strategies, we can work towards building more accountable, transparent, and equitable societies.</p>
+
+                <h2>References:</h2>
+                <ul>
+                    <li>Transparency International. (Year). Corruption Perceptions Index.</li>
+                    <li>World Bank. (Year). Worldwide Governance Indicators.</li>
+                    <li>[Other relevant academic sources, reports, and studies]</li>
+                </ul>
+            <br>
+          <br>
+          <br>
+            <h1>Reported Cases</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+        {% for post in posts %}
+          <div class="post-preview">
+            <a href="{{ url_for('post', post_id=post.id) }}">
+              <h2 class="post-title">
+                {{ post.title }}
+              </h2>
+              <h3 class="post-subtitle">
+                {{ post.subtitle }}
+              </h3>
+            </a>
+            <p class="post-meta">Posted by {{ post.author }} on {{ post.date_posted.strftime('%B %d, %Y') }}</p>
+          </div>
+          {% endfor %}
+          <hr>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="copyright text-muted">Copyright &copy; Cynthia Thoithi</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='clean-blog.min.js') }}"></script>
+
+  </body>
+
+</html>
